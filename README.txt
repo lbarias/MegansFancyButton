@@ -4,6 +4,9 @@ This button draws cats as the yarn button in the middle is interacted with.
 	faking a sensation of creatin art. The cats also represent some of Megan's likings such as
 	Asian food, music - in particular obscure EDM music, and photography. The yarn button is also
 	in Megan's favourite colour: Burgundy.
+	
+How to run:
+Open within visual studio or install executable.
 
 How it works:
 click on the yarn to draw CameraCat
