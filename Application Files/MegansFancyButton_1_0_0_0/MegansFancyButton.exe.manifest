@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MegansFancyButton.exe" version="1.0.0.0" publicKeyToken="7e140625af29205c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MegansFancyButton" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MegansFancyButton.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MegansFancyButton.exe" size="1316768">
+      <assemblyIdentity name="MegansFancyButton" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NOQjb28MOzsFu7ENmF0gheImrvSOEJ3jg0aoIt7BDow=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MegansFancyButton.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sounds\camera-shutter-click-02.wav" size="317190">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jPGkHI14uD+WE4WiVJ/6B35XrECRKi1HQ94rI4Ov97g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sounds\food-processor-1.wav" size="315464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5VOpz0iQbOWmjQjMV07cQhVw6MhQ5m+aiyN23sTxEHk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sounds\glass-clink-4.wav" size="364616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q/bdLK0VCyIMzcHbji8wRQPbV17eKDleVkBFA8qDkmg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sounds\Rhythmic_100_46.wav" size="1270226">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xr9jBC0I2HQ5cxRYnbpLqwTKWl+zcBCAfFDSAmlJAlY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sounds\Ringmod_100_30.wav" size="1270226">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hVkHgR/Eo9qDGG6Qs6G2aUFkFK60sEcQpUiwj5V1VJI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=POOH\licel" issuerKeyHash="0eea0544a1750ce6c79dbec3a3c52a5f17723044" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AiN26Doo9tdL8aGApeWaE18j/lPpwpujERcEFbIt52w=</DigestValue></Reference></SignedInfo><SignatureValue>VBGvBrPWm+p3tU5LgqoFlj1OHulRo/FttTvMl7Ewtt6TvBFAoTughep1xicNuYNyXzB0emeY9/bp/2R07yxHj34Woz5GgwKM5MEODcDQ1scak1lHxBiahNVsqzKNm3r7lRgJRnee8W3hmoDWAbTq3BPfZIfkIEWpd45ZVaRJqBU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1IYcrPYhC8TA5qqnsoD7lKyPtF/PuMUvze9Q/fOIaXiFvboVPgmfSCOcFx1RdAUSo8DfwVM3v36SPNJ4mjSP8ZsheFQfHT+0m6AJiojTx4sPKiJYZ0eT2rUrUbnSLJjtgzRxn7Di2jco4/JIASZxr4z6x0/cnlbPKMEuWPruhx0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6ce72db215041711a39bc2e953fe235f139ae5a580a1f14bd7f6283ae8762302" Description="" Url=""><as:assemblyIdentity name="MegansFancyButton.exe" version="1.0.0.0" publicKeyToken="7e140625af29205c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=POOH\licel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eq1JmKjbWsdoY12alGH7K1pl0WMMxGUMNsxntFxJ3WU=</DigestValue></Reference></SignedInfo><SignatureValue>V9IVlHeBJMC8VmDZQWnNxOLiiAfHJeYQ6u7nym1bpeFlddRJuRkXKXMUnk+TOby2WdGtfxe/66ldb7KDjT4mTbq+/XYRRr1bHwyT+UKrXyTt6sG2feFeyqLkZYGaKpGyPM+4NPU/azFx976EO2t9Hp1UADWYy/yt7eJQmzHrK1I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1IYcrPYhC8TA5qqnsoD7lKyPtF/PuMUvze9Q/fOIaXiFvboVPgmfSCOcFx1RdAUSo8DfwVM3v36SPNJ4mjSP8ZsheFQfHT+0m6AJiojTx4sPKiJYZ0eT2rUrUbnSLJjtgzRxn7Di2jco4/JIASZxr4z6x0/cnlbPKMEuWPruhx0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQexxffVnE2IdBhmDCzvDvHTANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAUABPAE8ASABcAGwAaQBjAGUAbDAeFw0xNzA5MjYwNjExMzhaFw0xODA5MjYxMjExMzhaMB8xHTAbBgNVBAMeFABQAE8ATwBIAFwAbABpAGMAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUhhys9iELxMDmqqeygPuUrI+0X8+4xS/N71D984hpeIW9uhU+CZ9II5wXHVF0BRKjwN/BUze/fpI80niaNI/xmyF4VB8dP7SboAmKiNPHiw8qIlhnR5PatStRudIsmO2DNHGfsOLaNyjj8kgBJnGvjPrHT9yeVs8owS5Y+u6HHQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIk6AwPUqaVDVCWAoCnb3//R66Rk9J3tljxsmAidx89Mf+3UVfVghv+Hrg9MKq2OGKi74b/647ZaRe/oULee17ox91qEHWqUsmJEssHF9NY0X5Gy5faSPItBO82+S5oCs1YN9UQTK1d0NqjhoGlEafm+1xCYY6FtLvSGporQl50C</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
